@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
-#read MCP3426 adc chips
-#	MCP3426 ADC Address Pins Config:
+#read MCP3428 16-Bit, Multi-Channel Analog-to-Digital Converter with I2C Interface and On-Board Reference using Raspberry Pi
+
+#	ADC Address Pins Config:
 #
 #	L & L = 0x68
 #	F & F = 0x68
@@ -15,10 +16,6 @@
 import quick2wire.i2c as i2c
 
 import time
-
-
-
-
 adc_address1 = 0x68
 adc_address2 = 0x69
 
